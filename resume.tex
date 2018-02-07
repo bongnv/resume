@@ -1,10 +1,10 @@
 %-------------------------
 % Resume in Latex
-% Author : Sourabh Bajaj
+% Author : Bong Nguyen
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -15,7 +15,6 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -57,6 +56,13 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeHeadingItem}[2]{
+  \item\small
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -69,35 +75,21 @@
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Nguyen Van Bong}} & Email : \href{mailto:vanbong@gmail.com}{vanbong@gmail.com}\\
+  \href{https://www.linkedin.com/in/bongnv/}{https://www.linkedin.com/in/bongnv/} & Mobile : +65-96349536 \\
 \end{tabular*}
-
-
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
-    \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
-  \resumeSubHeadingListEnd
-
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
+      {Grab}{Singapore}
+      {Software Engineer}{Feb 2017 - Present}
       \resumeItemListStart
         \resumeItem{Tensorflow}
           {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
@@ -106,8 +98,8 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
+      {TDC}{Hanoi, Vietnam}
+      {Software Engineer}{Sep 2015 - Jan 2017}
       \resumeItemListStart
         \resumeItem{Notifications}
           {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
@@ -130,8 +122,18 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {Gameloft}{Hanoi, Vietnam}
+      {Programmer Supervisor}{Jun 2014 - Sep 2015}
+      \resumeItemListStart
+        \resumeItem{Portfolio Management}
+          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+        \resumeItem{QuantDesk}
+          {Python backend for a web application used by hedge fund managers for portfolio management.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Gameloft}{Hanoi, Vietnam}
+      {Game Developer}{Jan 2013 - May 2014}
       \resumeItemListStart
         \resumeItem{Portfolio Management}
           {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
@@ -139,30 +141,24 @@
           {Python backend for a web application used by hedge fund managers for portfolio management.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \resumeSubItem{VNIM}
+      {An open source Vietnamese input method using XIM for Linux.}
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Engineering and Technology, VNU}{Hanoi, Vietnam}
+      {Bachelor of Computer Science;  GPA: 3.39}{Sep. 2008 -- July. 2012}
+    \resumeSubheading
+      {High School for Gifted Students, Hanoi University of Science}{Hanoi, Vietnam}
+      {Mathematics and Informatics;  Distinction Degree)}{Aug. 2005 -- June. 2008}
   \resumeSubHeadingListEnd
 
 %
@@ -176,6 +172,24 @@
 %    }
 %  \resumeSubHeadingListEnd
 
+%-----------ACCOMPLISHMENTS-----------
+\section{Accomplishments}
+  \resumeSubHeadingListStart
+    \resumeHeadingItem
+      {Gameloft HAN AI Challenge: \textbf{Third Prize}}{2015}
+    \resumeHeadingItem
+      {Gameloft SEA AI Challenge: \textbf{Second Prize}}{2012}
+    \resumeHeadingItem
+      {ACM-ICPC Asia Hanoi Regional Contest: \textbf{Third Prize}}{2010}
+    \resumeHeadingItem
+      {Google Code Jam: Qualified for Round 3 (top 500)}{2010}
+    \resumeHeadingItem
+      {Vietnamese National Olympiad in Informatics for High School Students:
+\textbf{Second Prize}}{2008}
+    \resumeHeadingItem
+      {Vietnamese National Olympiad in Informatics for High School Students:
+\textbf{Third Prize}}{2007}
+  \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
