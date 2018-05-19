@@ -42,6 +42,12 @@
 
 %-------------------------
 % Custom commands
+\newcommand{\resumeSimpleItem}[1]{
+  \item\small{
+    #1 \vspace{-2pt}
+  }
+}
+
 \newcommand{\resumeItem}[2]{
   \item\small{
     \textbf{#1}{: #2 \vspace{-2pt}}
@@ -79,8 +85,9 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-	\textbf{\href{https://www.linkedin.com/in/bongnv}{\Large Nguyen Van Bong}} & Email : \href{mailto:vanbong@gmail.com}{vanbong@gmail.com}\\
-  \href{https://www.linkedin.com/in/bongnv/}{https://www.linkedin.com/in/bongnv/} & Mobile : +65-96349536 \\
+  \textbf{\Large Nguyen Van Bong} & Email : \href{mailto:vanbong@gmail.com}{vanbong@gmail.com}
+\\\href{https://www.linkedin.com/in/bongnv/}{https://www.linkedin.com/in/bongnv/} & Mobile : +65-96349536 \\\href{https://github.com/bongnv/}{https://github.com/bongnv/}
+\\
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
@@ -91,10 +98,10 @@
       {Grab}{Singapore}
       {Software Engineer}{Feb 2017 - Present}
       \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+        \resumeItem{Rewards}
+          {As a part of Rewards team to build a large scale, high availability distributed system with \textbf{Redis}, \textbf{MySQL}, \textbf{Golang} on \textbf{AWS}.}
+        \resumeItem{Omega}
+          {Built a management portal for Rewards operators to create or maintain campaigns with React, Redux, MySQL, Golang.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -110,35 +117,23 @@
         \resumeItem{Sign Service}
           {Designed and implemented a service with an attached soft HSM to sign and verify messages. Technology stack includes Spring, Hibernate, MySQL, PKCS11, Docker.} 
       \resumeItemListEnd
-
-    \resumeSubheading
-      {Gameloft}{Hanoi, Vietnam}
-      {Programmer Supervisor}{Jun 2014 - Sep 2015}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
       
     \resumeSubheading
       {Gameloft}{Hanoi, Vietnam}
-      {Game Developer}{Jan 2013 - May 2014}
+      {Game Developer}{Jan 2013 - Sep 2015}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeSimpleItem{Porting games to Android platform and developing platform-specific features.}
+        \resumeSimpleItem{Published games: The Amazing Spider-Man 2, Brothers in Arms 3, Order \& Chaos 2, Playmobil Pirates, UNO \& Friends.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{VNIM}
-      {An open source Vietnamese input method using XIM for Linux.}
-  \resumeSubHeadingListEnd
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{VNIM}
+%       {An open source Vietnamese input method using XIM for Linux.}
+%   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
