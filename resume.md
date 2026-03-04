@@ -1,6 +1,6 @@
 # NGUYEN, VAN BONG
 
-Sydney, Australia · vbong24@outlook.com · (+61) 478960590 · [bongnv.com](https://bongnv.com)
+Sydney, Australia · vbong5@hotmail.com · (+61) 478960590 · [bongnv.com](https://bongnv.com)
 
 Software engineer with 12+ years of experience architecting and delivering large-scale distributed systems. Proven track record of driving cross-team technical initiatives at companies like Atlassian and Grab, from architecting a billing migration platform handling significant recurring revenue to building SEA's largest loyalty program from the ground up. Skilled in Go and Java, and leading through technical influence.
 
