@@ -7,7 +7,7 @@ Software engineer with 12+ years of experience architecting and delivering large
 ## Experience
 
 ### Senior Software Engineer
-**Atlassian** · Sydney, Australia · 11/2024 - Present
+**Atlassian** · Sydney, Australia · 11/2023 - Present
 
 - Owned and built Migration Service V2 (MSv2) to onboard other billing systems into CCP, authoring multiple RFCs to shape its direction and architecture.
 - Drove the billing migration between CCP and Loom teams as the technical point of contact, delivering Loom as the first successful adopter of MSv2.
@@ -17,7 +17,7 @@ Software engineer with 12+ years of experience architecting and delivering large
 - Participated in the interview panel to assess engineering candidates, helping maintain a high hiring bar.
 
 ### Senior Software Engineer (Tech Lead)
-**SafetyCulture** · Sydney, Australia · 06/2021 - 11/2024
+**SafetyCulture** · Sydney, Australia · 06/2021 - 11/2023
 
 - Architected and built a next-generation analytics service to replace the existing system that could not keep up with growing data volumes, leveraging Amazon EMR, Apache Hudi, CubeJS & Citus to process terabytes of data per day.
 - Collaborated across product, design, and engineering teams to define requirements and align on the roadmap for the analytics service.
